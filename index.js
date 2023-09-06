@@ -5,7 +5,7 @@ const fs = require("fs");
 const port =3000;
 const requestIp = require("request-ip");
 
-app.get("*", (req, res) => {22222
+app.get("*", (req, res) => {
   try {
     const clientIp = requestIp.getClientIp(req);
           console.log("clientIp") ;
